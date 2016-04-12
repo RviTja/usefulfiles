@@ -3,6 +3,7 @@ export CLICOLOR=1
 alias prettyjson='python -m json.tool'
 alias npmcache="npm --cache-min 9999999"
 function cdl { cd $1; ls; }
+alias lsh='ls -alh'
 
 PS1='[\u@local \A \w]$ '
 
